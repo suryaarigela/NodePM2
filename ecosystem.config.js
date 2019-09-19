@@ -5,7 +5,7 @@ module.exports = {
 
     // Options reference: https://pm2.io/doc/en/runtime/reference/ecosystem-file/
     args: 'serve --host [10.31.252.51] --disable-host-check',
-    instances: 4,
+    instances: 2,
     exec_mode  : "cluster",
     autorestart: true,
     watch: false,
